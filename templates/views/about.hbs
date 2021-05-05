@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>links}}
+  </head>
+  <body>
+    <!-- Navbar -->
+    {{>navbar}}
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- main header left -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome To <span style="color: #0097e6;">WeatherReport</span></p>
+              <h1 class="text-capitalize">
+                i am a <span>MERN</span> stack developer.
+              </h1>
+              <a
+                href="https://www.facebook.com/pratik.sahu.1272/"
+                target="_pratik"
+                >About me</a
+              >
+            </div>
+            <!-- main header right -->
+            <div class="col-md-6 col-12 main_header_right">
+              <img
+                src="images/about.png"
+                alt=""
+                style="width: 50rem"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{>footer}}
+  </body>
+</html>
