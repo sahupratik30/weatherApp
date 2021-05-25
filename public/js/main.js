@@ -62,9 +62,11 @@ const getInfo = async (event) => {
           "<i class='fas fa-cloud-sun' style='color: #eccc68;'></i>";
       }
       data_hide.classList.remove("data_hide");
+      searchedCity.value = "";
     } catch (err) {
       cityName.innerText = "City Not Found!";
       data_hide.classList.add("data_hide");
+      searchedCity.value = "";
     }
   }
 };
