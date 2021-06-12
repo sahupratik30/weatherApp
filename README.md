@@ -1,5 +1,7 @@
 ## About the project
 
+![Badge](https://img.shields.io/badge/check--weather-application-orange)
+
 This is a web application where one can search for the current weather status of a particular region.
 
 ## Screenshots
