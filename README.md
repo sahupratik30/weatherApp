@@ -4,6 +4,17 @@
 
 This is a web application where one can search for the current weather status of a particular region.
 
+## Technologies Used
+
+### Frontend
+ - Handlebars(Template Engine)
+ - CSS
+### Backend
+ - NodeJS
+ - ExpressJS
+### Database
+ - MongoDB
+
 ## Screenshots
 
 ![Screenshot](https://user-images.githubusercontent.com/80754608/121049863-bb57ff80-c7d5-11eb-93cc-060025bb9e2c.png)
